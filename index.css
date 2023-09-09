@@ -1,0 +1,72 @@
+
+*{
+    margin: 0px;
+}
+
+/* HOME PAGE */
+.hm-body {
+   
+
+}
+.navbar{
+    background-color: rgb(14, 11, 22);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.navbar> a {
+     color: white;
+     text-decoration: none;
+ }
+ .navbar> a:active {
+   color: green;
+   text-decoration: underline;
+ }
+body {
+    background-color: ;
+}
+
+.bd-content {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+.bd-content-dadimg{
+display: flex;
+justify-content: space-between
+
+}
+.photo-avatar{
+    width: 5cm;
+    height: 7cm;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+/* FAMILY TREE PAGE */
+
+
+
+
+
+
+
+/* EVENTS PAGE */
+
+
+
+
+
+
+
+
+/* IMPORTANT DATES PAGE */
+
+
+
+
