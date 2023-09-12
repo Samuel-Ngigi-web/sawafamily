@@ -46,10 +46,39 @@ justify-content: space-between
     overflow-x: hidden;
     overflow-y: hidden;
 }
-
+footer{
+display: flex;
+justify-content: center;
+background-color: rgb(14, 11, 22);
+width: 100vw;
+height: 5vw;
+align-items: center;
+}
+.footer-div{
+display: block;
+gap: 1vw;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+}
 
 /* FAMILY TREE PAGE */
+.component-person{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2cm;
+    margin-top: 10vh;
+    margin-left:  2vw;
+    margin-right: 2vw;
 
+}
+.component-person-even{
+display: flex;
+flex-direction: row-reverse;
+gap: 2cm;
+margin-top: 10vh;
+margin-left: 2vw;
+margin-right: 2vw;
+}
 
 
 
@@ -70,3 +99,15 @@ justify-content: space-between
 
 
 
+/* GALLERY PAGE */
+
+.gallery-cells{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+   
+}
+
+.img-card{
+    display: block;
+}
